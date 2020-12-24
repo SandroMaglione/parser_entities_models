@@ -1,0 +1,22 @@
+(
+    HelloFromMyWorld {
+        onlyE: int;
+        onlyEOpt?: int;
+        onlyELst!: int;
+        mOnlyName: int, m_only_name;
+        mOnlyNameOpt?: int, m_only_name_opt;
+        mOnlyNameLst!: int, m_only_name_lst;
+        mType: int, m_type: String;
+        mTypeOpt?: int, m_type_opt: String;
+        mTypeLst!: int, m_type_lst: String;
+        onlyESub: (Sub{id:int;});
+        onlyESubOpt?: (Sub{id:int;});
+        onlyESubLst!: (Sub{id:int;});
+        mOnlyNameSub: (Sub{id:int;}), m_only_name_sub;
+        mOnlyNameSubOpt?: (Sub{id:int;}), m_only_name_sub_opt;
+        mOnlyNameSubLst!: (Sub{id:int;}), m_only_name_sub_lst;
+        mTypeSub: (Sub{id:int;}), m_type_sub: String;
+        mTypeSubOpt?: (Sub{id:int;}), m_type_sub_opt: String;
+        mTypeSubLst!: (Sub{id:int;}), m_type_sub_lst: String;
+    }
+)

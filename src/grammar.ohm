@@ -1,0 +1,9 @@
+EntityModel {
+  Entity = "(" Ucs "{" Params "}" ")"
+  Params = (Param ";")+
+  Param = "*"? Lcs ("?" | "!")? ":" (S | Entity) ("," Lcs (":" S)?)?
+
+  Ucs = upper S
+  Lcs = lower S
+  S = (alnum | "_")+
+}
