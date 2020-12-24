@@ -1,0 +1,5 @@
+(
+    EntityModel {
+        isFeatured: bool, featured: int;
+    }
+)

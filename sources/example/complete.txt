@@ -1,5 +1,5 @@
 (
-    HelloFromMyWorld {
+    Complete {
         onlyE: int;
         onlyEOpt?: int;
         onlyELst!: int;

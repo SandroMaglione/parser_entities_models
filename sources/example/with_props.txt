@@ -1,0 +1,5 @@
+(
+    WithProps {
+        *id: int;
+    }
+)

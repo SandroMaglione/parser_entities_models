@@ -1,0 +1,9 @@
+(
+    Nested {
+        subClass: (
+            SubClass {
+                id: int;
+            }
+        );
+    }
+)
